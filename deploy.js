@@ -4,7 +4,7 @@ const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
   "pride smooth exotic scatter entire empty problem pill garbage idea purchase cover",
-  "https://rinkeby.infura.io/v3/c93e24700e194d4ea80744cc0850b064"
+  "https://goerli.infura.io/v3/c93e24700e194d4ea80744cc0850b064"
 );
 const web3 = new Web3(provider);
 
